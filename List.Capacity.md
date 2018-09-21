@@ -28,14 +28,14 @@ capacity 만큼 메모리를 미리 잡고있는다.
 
 
 
-**List<T>에 삽입할 개수를 미리 안다면 capacity를 미리 설정하여 메모리를 확보하는 습관을 가지자.**
+**List<T>에 삽입할 개수를 미리 안다면 Capacity를 미리 설정하여 메모리를 확보하는 습관을 가지자.**
 
 
 
 ex)
 
 ```c#
-monsters.capacity = monsterDatas.count; 
+monsters.Capacity = monsterDatas.Count; 
 
 foreach(var data in monsterDatas)
 {
